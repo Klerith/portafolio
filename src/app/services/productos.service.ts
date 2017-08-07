@@ -14,6 +14,13 @@ export class ProductosService {
 
   }
 
+  public cargar_producto( cod:string ){
+
+    return this.http.get(`https://paginaweb-23ef1.firebaseio.com/productos/${ cod }.json`);
+
+  }
+
+
   public cargar_productos(){
 
     this.cargando = true;

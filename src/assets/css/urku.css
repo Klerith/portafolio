@@ -1350,7 +1350,7 @@ body {
 }
 
 .item-inside-1 {
-  background-image: url("../img/project-1.jpg");
+  /*background-image: url("../img/project-1.jpg");*/
   background-position: 50% 100%;
   background-size: 350%;
 }
