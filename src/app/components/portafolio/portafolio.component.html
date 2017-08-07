@@ -28,7 +28,7 @@
   </div>
 
 
-  <div *ngIf="_ps.productos.length >0 && !cargando"
+  <div *ngIf="_ps.productos.length >0 && !_ps.cargando"
         class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4 animated fadeIn">
 
     <a *ngFor="let producto of _ps.productos"
